@@ -1,5 +1,5 @@
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "./badge";
+import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import { Briefcase, Users, Zap } from "lucide-react";
 
 export default function AboutSection() {

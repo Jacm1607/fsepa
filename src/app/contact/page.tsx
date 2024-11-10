@@ -1,11 +1,11 @@
 "use client"
 import { MapPin, Phone, Clock, Globe } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent } from "../../components/ui/card"
+import { Badge } from "../../components/ui/badge"
 import Link from "next/link"
 import dynamic from "next/dynamic"
 
-const NoSSR = dynamic(() => import('@/components/ui/iframeMap').then(mod => mod.default), {
+const NoSSR = dynamic(() => import('../../components/ui/iframeMap').then(mod => mod.default), {
   loading: () => <p>Loading...</p>,
 })
 

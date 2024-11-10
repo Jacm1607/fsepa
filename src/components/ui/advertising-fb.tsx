@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./button";
 import { Iframe } from "./iframe";
 
 type TypeAdvertising = {

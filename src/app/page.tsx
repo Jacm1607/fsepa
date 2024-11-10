@@ -15,9 +15,9 @@ import Tecnologia from "../assets/images/tecnologia.jpg";
 import Cuentos from "../assets/images/cuentos.jpg";
 import ComposicionPoetica from "../assets/images/composicionPoetica.jpg";
 import { ChevronRight, ChevronLeft } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import AboutSection from "@/components/ui/about";
-import AdvertisingFacebook from "@/components/ui/advertising-fb";
+import { Button } from "../components/ui/button";
+import AboutSection from "../components/ui/about";
+import AdvertisingFacebook from "../components/ui/advertising-fb";
 
 interface ContentItem {
   id: string;
